@@ -848,7 +848,7 @@ class AutobidderTest:
             
     def enable_xbox_prices(self):
         menu = self.driver.find_element_by_xpath("/html/body/header/nav/div/div/ul[2]/li[4]/div/span")
-        hidden_submenu = self.driver.find_element_by_xpath("/html/body/header/nav/div/div/ul[2]/li[4]/div/ul/li[2]/a")
+        hidden_submenu = self.driver.find_element_by_xpath("/html/body/header/nav/div/div/ul[2]/li[4]/div/ul/li[1]/a")
 
         actions = ActionChains(self.driver)
         actions.move_to_element(menu)
